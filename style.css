@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    background: url("161011594_3933297980063277_1040199117186701101_n.jpg") ;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Caveat', cursive;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #212529;
+    opacity: .3;
+    z-index: 1;
+}
+.main h1{
+    font-size: 70px;
+    margin-bottom: 500px;
+    z-index: 2;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    background: url(https://hedieuhanh.com/wp-content/uploads/2019/05/hinh-cute-lam-nen-cho-may-tinh-dep_115831053.jpg);
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: rgb(97, 97, 97);
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.container .content{
+    padding: 300px;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.8s ease;
+}
+.container .content button{
+    width: 80px;
+    height: 30px;
+    margin: 30px;
+    border-radius: 10px;
+    border: none;
+}
+.container .content button:hover{
+    background: tomato;
+    transition: all 1s ease;
+}
+.showme {
+    opacity:1!important;
+  }
